@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="pics/weblogo.png" rel="shortcut icon" type="image/png">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Εγγραφή Χρήστη</title>
+
+</head>
+<body>
+
+    <div class="main">
+    <header>
+        <div class="navbar">
+            <div class="icon">
+                <a href="index.html"><img src="pics/logo2png.png" alt=""></a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Αρχική</a></li>
+                    <li><a href="categories.html">Κατηγορίες</a> </li>
+                    <li><a href="Contactus.html">Contact Us</a></li>
+                    <li><a href="Aboutus.html">About us</a></li>
+                </ul>
+            </div>
+
+<br><br>
+        </div>
+    </header>
+    <ul class="htmlpath">
+        <li><a href="index.html">Αρχική </a></li>
+        <li>»</li>
+        <li><a href="Exercise5.html">Join Us</a></li>
+        
+    </ul><br><br>
+<h1></h1><br><br><br>
+
+   
+<div id="Contactnow" class="cater"><h1>Εγγραφή Χρήστη</h1></div>
+<form id="registrationForm" action="mailto:p3150242@aueb.gr" method="post">
+        <fieldset>
+            <legend>Προσωπικά Στοιχεία</legend>
+            <label for="fullName">Ονοματεπώνυμο:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Διεύθυνση Κατοικίας:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="birthdate">Ημερομηνία Γέννησης:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+
+            <label for="phone">Τηλέφωνα Επικοινωνίας:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <!-- Προσθέστε τα υπόλοιπα προσωπικά στοιχεία εδώ -->
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Στοιχεία Ταυτοποίησης</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+
+            <label for="password">Κωδικός:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirmPassword">Επιβεβαίωση Κωδικού:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <!-- Προσθέστε τα υπόλοιπα στοιχεία ταυτοποίησης εδώ -->
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Επιλογές Επικοινωνίας</legend>
+            <label>Επιλέξτε τρόπους επικοινωνίας:</label>
+            
+            <label for="sms">SMS <input type="checkbox" id="sms" name="contactMethods[]" value="sms"></label>
+
+            
+            <label for="email">Email <input type="checkbox" id="email" name="contactMethods[]" value="email"></label>
+
+            
+            <label for="viber">Viber <input type="checkbox" id="viber" name="contactMethods[]" value="viber"></label>
+
+            
+            <label for="whatsapp">WhatsApp <input type="checkbox" id="whatsapp" name="contactMethods[]" value="whatsapp"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ερωτηματολόγιο</legend>
+            <label for="adPreferences">Τύπος αγγελιών που ενδιαφέρεστε:</label>
+            <textarea id="adPreferences" name="adPreferences" rows="4"></textarea>
+
+            <label for="jobPosition">Θέση Εργασίας:</label>
+            <input type="text" id="jobPosition" name="jobPosition">
+
+            <label for="desiredLocations">Περιοχές Κατοικίας/Δραστηριότητας:</label>
+            <input type="text" id="desiredLocations" name="desiredLocations">
+
+            <label for="vehicleTypes">Τύποι Οχημάτων που Χρησιμοποιείτε:</label>
+            <select id="vehicleTypes" name="vehicleTypes">
+                <option value="car">Αυτοκίνητο</option>
+                <option value="motorcycle">Μοτοσυκλέτα</option>
+                <option value="bike">Ποδήλατο</option>
+                <option value="other">Άλλο</option>
+            </select>
+
+            <label for="prevJob"> Έχεις Προυπηρεσία</label>
+            <select id="prevJob" name="prevJob">
+                <option value="yes">Ναι</option>
+                <option value="no">Οχι</option>
+                
+            </select>
+        </fieldset>
+<br><br>
+        <a href="mailto:p3150242@aueb.gr"><button type="submit">Υποβολή</button></a>
+    </form><br><br><br>
+
+</div>
+    <footer id="site-info">
+        <div class="footer-content">
+            <h3>Web Dev</h3>
+    
+            <p>Αυτη η εργασία έγινε στα πλαίσια του Μαθηματος Προγραμματισμος στον Ιστο
+            </p>
+            
+                
+                <ul class="socials">
+                    <li><a href="#"><i class='bx bxl-facebook' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-linkedin-square' ></i></a></li>
+                </ul>  
+         </div>      
+    
+                <div class="footer-bottom">
+                    <p>Copyright &copy; 2023 WebDev. Designed by <span>Ria n' Jo</span></p>
+                </div>
+                
+            
+        
+    
+    </footer>
+    <script src="lib.js"></script>
+</body>
+</html>
